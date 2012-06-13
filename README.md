@@ -24,12 +24,14 @@ http://code.google.com/p/smali/
  care a fost convertita la arhiva standard jar (.class ) utilizand 
 http://code.google.com/p/dex2jar/
 
-utilizand jar-ul creat a fost facut reverse pentru a obtine codul sursa .java cu
+Utilizand jar-ul creat a fost facut reverse pentru a obtine codul sursa .java cu
  http://java.decompiler.free.fr/?q=jdgui
  
  S-a obtinut un cod sursa in java care va fi utilizat impreuna cu restul fisierelor pentru a fi realizata aplicatia desktop.
+Codul obtinut este disponibil aici 
+https://github.com/ocean2706/lgtv-desktop-remote/tree/reversed-sources
 
-pentru implementare si portabilitate se va folosi csharp in prima etapa ( pentru ca ulterior sa poata fi utilizata aplicatia si pe linux via mono, ca urmare codul va fi compatibil cu dot.net 2.0 )
+Pentru implementare si portabilitate se va folosi csharp in prima etapa ( pentru ca ulterior sa poata fi utilizata aplicatia si pe linux via mono, ca urmare codul va fi compatibil cu dot.net 2.0 )
 
 in locul jmdns va fi utilizata 
 http://zeroconf.codeplex.com/
