@@ -2,6 +2,8 @@ lgtv-desktop-remote
 ===================
 
 a rewrite of famous "lgtv remote" application. this time for desktop ( windows and linux-like ) using mono
+
+
 LGTV Control Desktop este o aplicatie similara cu LGTV Remote care permite controlul "over lan" a unui televizor LGTV ( LG SmartTV , LGTV 3D, serii de dinainte de 2012 ) utilizand pc-ul .
 
 Informatiile din acest document sunt pentru cei care sunt interesati de pasii utilizati pentru identificarea protocolului de comunicatie, doresc sa contribuie cu cod, sau 
