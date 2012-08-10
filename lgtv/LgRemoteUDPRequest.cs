@@ -12,7 +12,7 @@ namespace com.lg.tv
 			throw new NotImplementedException ();
 		}
 
-		internal  void HandlekeyInput (int p)
+		internal  void HandlekeyInput (int keycode)
 		{
 			throw new NotImplementedException ();
 		}

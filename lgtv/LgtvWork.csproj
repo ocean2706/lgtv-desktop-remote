@@ -44,14 +44,18 @@
     <Compile Include="ChannelInfo.cs" />
     <Compile Include="CMainMenu.cs" />
     <Compile Include="commandRequest.cs" />
+    <Compile Include="CRC32.cs" />
+    <Compile Include="DatagramSocket.cs" />
     <Compile Include="EventRequest.cs" />
     <Compile Include="HTTPPostRequest.cs" />
     <None Include="json.php" />
+    <Compile Include="InetAddress.cs" />
     <Compile Include="LGHTTPPostRequest.cs" />
     <Compile Include="LgRemoteUDPRequest.cs" />
     <Compile Include="LGTVHTTPPostRequest.cs" />
     <Compile Include="LgTVRemoteUDPRequest.cs" />
     <Compile Include="LgTvUDPMessage.cs" />
+    <Compile Include="LGTVUdpSocket.cs" />
     <Compile Include="LifeTime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryRequest.cs" />
@@ -70,6 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="dec2hex.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rmkeycodes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
