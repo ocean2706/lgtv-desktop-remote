@@ -119,7 +119,36 @@ namespace com.lg.tv
 	}
 	public class HTTPGet
 	{
-	
-	}
+        HttpWebRequest m_httpMethod;
+        public void setURL(string ip, string path)
+        {
+            
+            
+            String str = "http://" + ip + ":8080" + path;
+            
+           
+            try
+            {
+                m_httpMethod = (HttpWebRequest)System.Net.WebRequest.Create(str);
+            }
+            catch (URISyntaxException localURISyntaxException)
+            {
+                
+                    localURISyntaxException.printStackTrace();
+            }
+        }
+
+        public string execute()
+        {
+            WebResponse h=m_httpMethod.GetResponse();
+            Stream receiveStream = h.GetResponseStream();
+            StreamReader readStream = new StreamReader(receiveStream, Encoding.UTF8);
+
+            String s= readStream.ReadToEnd();
+            h.Close();
+            readStream.Close();
+            return s;
+        }
+    }
 
 }
