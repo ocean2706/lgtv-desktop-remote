@@ -22,13 +22,13 @@ namespace com.lg.tv
 			{"command",HPRM.command},
 			{"event",HPRM.evt},
 			{"auth",HPRM.auth},
-			{"dtv_wifirc",HPRM.auth},
+			{"dtv_wifirc",HPRM.dtv_wifirc},
 
 		};
 		static Dictionary<HPRM, String> h2 = new Dictionary<HPRM,String> (){
-			{HPRM.none,""},
+			{HPRM.none,"/hdcp/api/dtv_wifirc"},
 			{HPRM.dtv_wifirc,"/hdcp/api/dtv_wifirc"},
-			{HPRM.command,""},
+			{HPRM.command,"/hdcp/api/dtv_wifirc"},
 			{HPRM.evt,"/hdcp/api/event"},
 			{HPRM.auth,"/hdcp/api/auth"}
 		};

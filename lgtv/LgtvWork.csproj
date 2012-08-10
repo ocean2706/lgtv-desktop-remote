@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="additions\KeyCodes.cs" />
     <Compile Include="ByeByeReceivcer.cs" />
+    <Compile Include="ChannelInfo.cs" />
     <Compile Include="CMainMenu.cs" />
     <Compile Include="commandRequest.cs" />
     <Compile Include="EventRequest.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="WebRequest.cs" />
     <Compile Include="HTTPPost.cs" />
     <Compile Include="PRM.cs" />
+    <None Include="spoiler.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="dec2hex.php" />
