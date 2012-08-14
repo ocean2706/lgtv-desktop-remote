@@ -8,14 +8,14 @@ namespace com.lg.tv
 {
     
 	
-		public class LgTvUDPMessage
-		{
+	public class LgTvUDPMessage
+	{
        
 
-			/// <summary>
-			/// build coresponding message from 
-			/// http://sourceforge.net/apps/mediawiki/openautomation/index.php?title=LGconnectd
-			/// The UDP packets are sent to port 7070.
+		/// <summary>
+		/// build coresponding message from 
+		/// http://sourceforge.net/apps/mediawiki/openautomation/index.php?title=LGconnectd
+		/// The UDP packets are sent to port 7070.
 
 //        Example
 //0	 1	 2	 3	 4	 5	 6	 7	 8	 9	 10	 11	 12	 13	 14	 15	 16	 17	 18	 19	 20	 21
@@ -32,21 +32,20 @@ namespace com.lg.tv
 //7	 channel change	 2x 4 bytes
 //9	 text input	 Command 2 = 1, String
 
-			/// </summary>
-			/// <param name="dataEntry"></param>
-			/// <returns></returns>
-			public byte[] BuildMessage (byte[] d)
-			{
+		/// </summary>
+		/// <param name="dataEntry"></param>
+		/// <returns></returns>
+		public byte[] BuildMessage (byte[] d)
+		{
 
-				byte[] iMsg = new byte[21];//
-				/*{
+			byte[] iMsg = new byte[21];//
+			/*{
                 0,0,0,0 //crc32
 
             }; // default 21 length
              */ 
             
-				return iMsg;
-			}
+			return iMsg;
 		}
 	}
 }

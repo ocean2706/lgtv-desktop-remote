@@ -7,6 +7,12 @@ namespace com.lg.tv
 {
 	public partial class CTVControl
 	{
+
+		public static void OnMouseHttpMove (int dx, int dy)
+		{
+			LifeTime h = LifeTime.getInstance ();
+			commandRequest.requestTouchMove (h.tv.IP, h.tv.SESSIONID, dx.ToString (), dy.ToString ());
+		}
 		/*
          *   // Field descriptor #10 I
           public static final int ACTION_MASK = 255;

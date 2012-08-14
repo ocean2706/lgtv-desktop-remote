@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LG350_Remote", "LG350_Remote\LG350_Remote.csproj", "{D51C31B8-4B96-4CF9-BF92-75D0B74033CE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LG350 Remote Setup", "LG350 Remote Setup\LG350 Remote Setup.vdproj", "{135FCDB0-E567-4794-A3BA-DE501B785E95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D51C31B8-4B96-4CF9-BF92-75D0B74033CE}.Debug|x86.ActiveCfg = Debug|x86
+		{D51C31B8-4B96-4CF9-BF92-75D0B74033CE}.Debug|x86.Build.0 = Debug|x86
+		{D51C31B8-4B96-4CF9-BF92-75D0B74033CE}.Release|x86.ActiveCfg = Release|x86
+		{D51C31B8-4B96-4CF9-BF92-75D0B74033CE}.Release|x86.Build.0 = Release|x86
+		{135FCDB0-E567-4794-A3BA-DE501B785E95}.Debug|x86.ActiveCfg = Debug
+		{135FCDB0-E567-4794-A3BA-DE501B785E95}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

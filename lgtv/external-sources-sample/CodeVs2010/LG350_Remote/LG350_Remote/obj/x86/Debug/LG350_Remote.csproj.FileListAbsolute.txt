@@ -1,0 +1,9 @@
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\bin\Debug\LG350_Remote.exe
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\bin\Debug\LG350_Remote.pdb
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\obj\x86\Debug\LG350_Remote.frmMain.resources
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\obj\x86\Debug\LG350_Remote.Properties.Resources.resources
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\obj\x86\Debug\LG350_Remote.exe
+c:\users\pransha\documents\visual studio 2010\Projects\LG350_Remote\LG350_Remote\obj\x86\Debug\LG350_Remote.pdb

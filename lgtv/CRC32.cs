@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 
 namespace com.lg.tv
 {
-   public class CRC32 : HashAlgorithm
+	public class CRC32 : HashAlgorithm
 	{
 		public const UInt32 DefaultPolynomial = 0xedb88320;
 		public const UInt32 DefaultSeed = 0xffffffff;
@@ -108,11 +108,13 @@ namespace com.lg.tv
 		};
 		}
 
-internal long getValue()
-{
- 	throw new NotImplementedException();
+		internal long getValue ()
+		{
+			throw new NotImplementedException ();
+		}
+		internal void update (byte[] p, int p_2, int p_3)
+		{
+			throw new NotImplementedException ();
+		}
+	}
 }
-internal void update(byte[] p,int p_2,int p_3)
-{
- 	throw new NotImplementedException();
-}}
