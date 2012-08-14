@@ -1,5 +1,0 @@
-C:\Users\george\documents\visual studio 2010\Projects\LgtvWork\LgtvWork\obj\Release\ResolveAssemblyReference.cache
-C:\Users\george\documents\visual studio 2010\Projects\LgtvWork\LgtvWork\bin\Release\LgtvWork.dll
-C:\Users\george\documents\visual studio 2010\Projects\LgtvWork\LgtvWork\bin\Release\LgtvWork.pdb
-C:\Users\george\documents\visual studio 2010\Projects\LgtvWork\LgtvWork\obj\Release\LgtvWork.dll
-C:\Users\george\documents\visual studio 2010\Projects\LgtvWork\LgtvWork\obj\Release\LgtvWork.pdb

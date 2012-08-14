@@ -1,0 +1,37 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Temp/MyClass.cs">
+    <Files>
+      <File FileName="Temp/MyClass.cs" Line="33" Column="1" />
+      <File FileName="../LgtvWork/CTVControl.cs" Line="87" Column="24" />
+      <File FileName="../LgtvWork/URISyntaxException.cs" Line="12" Column="44" />
+      <File FileName="../LgtvWork/TVInfo.cs" Line="15" Column="33" />
+      <File FileName="../LgtvWork/HTTPPostRequest.cs" Line="23" Column="40" />
+      <File FileName="../LgtvWork/HTTPPost.cs" Line="61" Column="1" />
+      <File FileName="../LgtvWork/LifeTime.cs" Line="27" Column="14" />
+      <File FileName="../LgtvWork/EventRequest.cs" Line="42" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="LgtvWork" expanded="True" selected="True" />
+          <Node name="Temp" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/home/george/Desktop/tem/Temp/Temp/MyClass.cs" line="12" />
+      <Breakpoint enabled="false" file="/home/george/Desktop/tem/LgtvWork/HTTPPostRequest.cs" line="30" />
+      <Breakpoint enabled="false" file="/home/george/Desktop/tem/LgtvWork/HTTPPost.cs" line="108" />
+      <Breakpoint enabled="false" file="/home/george/Desktop/tem/Temp/Temp/MyClass.cs" line="27" />
+      <Breakpoint enabled="false" file="/home/george/Desktop/tem/LgtvWork/CTVControl.cs" line="290" />
+      <Breakpoint file="/home/george/Desktop/tem/Temp/Temp/MyClass.cs" line="43" />
+      <Breakpoint file="/home/george/Desktop/tem/Temp/Temp/MyClass.cs" line="33" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
