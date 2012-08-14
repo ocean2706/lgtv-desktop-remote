@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_main">LG TV Remote</string>
+    <string name="wifi_turning_on">Wi-Fi 켜짐</string>
+    <string name="msgbox_title_cannot_found_paired_tv">Question</string>
+    <string name="msgbox_info_cannot_found_paired_tv">"'%s' 가 인식되지 않습니다.
+ 다른 TV로 연결할까요?"</string>
+    <string name="msgbox_btn_yes_cannot_found_paired_tv">예</string>
+    <string name="msgbox_btn_no_cannot_found_paired_tv">아니오</string>
+    <string name="app_name_device_search">TV를 선택해 주세요</string>
+    <string name="msgbox_wait_search_device">기기 검색 중입니다.</string>
+    <string name="device_search_set_default_tv">기본 TV로 설정</string>
+    <string name="device_search_connect_tv">연결</string>
+    <string name="device_search_rescan_tv">TV 재검색</string>
+    <string name="demo_tv_name">데모 TV</string>
+    <string name="demo_tv_nickname">데모 동작을 위한 가상의 TV</string>
+    <string name="app_name_device_pairing_main">Pairing</string>
+    <string name="device_pairing_guide">"'%s' 인증키를 입력하세요"</string>
+    <string name="device_pairing_input_pincode">인증키 입력</string>
+    <string name="device_pairing_menu_back">TV 목록으로 돌아가기</string>
+    <string name="device_search_cannot_fount_tv">"LG TV Remote App을
+사용하기 위해서는
+Smart Phone과 LG TV가
+동일한 무선 공유기에
+연결되어 있어야 합니다."</string>
+    <string name="msgbox_wait_for_connection">연결중…</string>
+    <string name="title_msgbox_wrong_passkey">연결실패</string>
+    <string name="text_msgbox_wrong_passkey">"인증키 오류
+'%s'"</string>
+    <string name="btn_msgbox_close">닫기</string>
+    <string name="title_msgbox_passkey_changed">연결실패</string>
+    <string name="text_msgbox_passkey_changed">"인증키가 일치하지 않습니다.
+인증키를 다시 입력해 주세요"</string>
+    <string name="btn_msgbox_passkey_changed">확인</string>
+    <string name="tvctrl_main_tab_1">VOL / CH</string>
+    <string name="tvctrl_sub_tab_1">Basic</string>
+    <string name="tvctrl_ch_vol_shake_phone_text_1" />
+    <string name="tvctrl_ch_vol_shake_phone_text_2">메뉴로 들어가려면 흔들어주세요.</string>
+    <string name="tvctrl_sub_tab_2">NUM 0~9</string>
+    <string name="btn_txt_chlist">CH List</string>
+    <string name="btn_txt_enter">Enter</string>
+    <string name="tvctrl_sub_tab_3">My CH</string>
+    <string name="btn_txt_add_cur_ch">현재 채널 추가</string>
+    <string name="btn_txt_import_tv_fav">선호채널 가져오기</string>
+    <string name="app_name_add_chrrent_ch">현재 채널을 My CH에 저장</string>
+    <string name="text_current_ch_info">현재 채널 정보</string>
+    <string name="text_channel_name">채널 이름</string>
+    <string name="btn_add_channel">추가</string>
+    <string name="text_select_ch_and_add">추가할 채널을 선택하세요.</string>
+    <string name="text_ch_info_is_duplicated">%s 중복오류 입니다.</string>
+    <string name="text_ch_info_is_added">%s 추가 되었습니다.</string>
+    <string name="msgbox_wait_download_fav_ch">TV로 부터 선호채널(FAV CH)읽어오는중입니다</string>
+    <string name="title_fav_group">FAV CH group</string>
+    <string name="app_name_edit_my_channel">My CH 편집</string>
+    <string name="msg_btn_cancel">취소</string>
+    <string name="tvctrl_main_tab_2">Touchpad</string>
+    <string name="advice_touchpad_usages">"여기를 터치하여 TV속
+포인터를 움직일 수 있습니다"</string>
+    <string name="advice_touchpad_usages2" />
+    <string name="tvctrl_main_tab_3">Button</string>
+    <string name="btn_txt_livetv">Live TV</string>
+    <string name="btn_txt_navi_a" />
+    <string name="btn_txt_navi_b" />
+    <string name="btn_txt_navi_c" />
+    <string name="btn_txt_navi_d" />
+    <string name="title_exit_app">확인</string>
+    <string name="text_exit_app">"LG TV Remote 앱을 종료 
+하시겠습니까?"</string>
+    <string name="button_ok_exit_app">종료</string>
+    <string name="button_cancel_exit_app">취소</string>
+    <string name="title_turnoff_tv">확인</string>
+    <string name="text_turnoff_tv">TV 전원을 끕니다.</string>
+    <string name="button_ok_turnoff_tv">끄기</string>
+    <string name="button_cancel_turnoff_tv">취소</string>
+    <string name="app_name_tvctrl_keyboard">키보드</string>
+    <string name="menu_rename_ch">채널 이름 변경</string>
+    <string name="menu_delete_ch">삭제</string>
+    <string name="menu_setting">설정</string>
+    <string name="menu_tv_off">TV 전원을 끕니다.</string>
+    <string name="cxtmenu_mych_change_name">채널 이름 변경</string>
+    <string name="cxtmenu_mych_delete">삭제</string>
+    <string name="msgbox_title_delete_a_mych">삭제</string>
+    <string name="msg_btn_yes">예</string>
+    <string name="msg_btn_no">아니오</string>
+    <string name="msgbox_title_info_demo_tv_mode">Information</string>
+    <string name="msgbox_txt_demo_tv_mode_change">"설정이 변경되었습니다.
+TV 재검색\"을 실행 시켜 주십시오."</string>
+    <string name="msgbox_btn_ok">확인</string>
+    <string name="app_name_setting">설정</string>
+    <string name="preferences_category_connect">TV Connection</string>
+    <string name="title_config_connected_tv">연결된 TV</string>
+    <string name="title_config_edit_cur_tv_nickname">TV 이름 변경</string>
+    <string name="title_config_demo_tv">데모 TV</string>
+    <string name="summary_config_demo_tv">연결된 TV가 없어도 모의로 리모컨 동작을 할 수 있습니다.</string>
+    <string name="preferences_category_effects">Effects</string>
+    <string name="title_config_vibration_feedback">진동 효과</string>
+    <string name="summary_config_vibration_feedback">진동 효과</string>
+    <string name="title_config_sound_effects">소리 효과</string>
+    <string name="summary_config_sound_effects">소리 효과</string>
+    <string name="preferences_category_function">Function</string>
+    <string name="title_config_auto_volume_down">전화오면 음소거</string>
+    <string name="summary_config_auto_volume_down">전화오면 음소거</string>
+    <string name="preferences_category_remote_id">Remote ID</string>
+    <string name="title_remote_id">리모트ID 설정</string>
+    <string name="preferences_category_sensitivity">민감도</string>
+    <string name="title_touchpad_tap_sensitivity">터치패드 텝 민감도</string>
+    <string name="summary_touchpad_tap_sensitivity">터치패드 텝 민감도</string>
+    <string name="preferences_category_version_info">Version Info.</string>
+    <string name="preferences_category_version_protocol_title">Protocol version</string>
+    <string name="preferences_category_version_sw_title">Software version</string>
+    <string name="preferences_category_manual">Manual</string>
+    <string name="preferences_category_about">애플리케이션 정보</string>
+    <string name="preferences_category_supported_model">지원 모델 정보</string>
+    <string name="title_about_app">애플리케이션 정보</string>
+    <string name="title_supported_models">지원 모델 정보</string>
+    <string name="text_supported_models">"지원 모델 정보 
+
+- LCD/LED TV
+LEX8
+LZ9800, LZ970*, LZ9700, LZ9600
+LW9600, LW950*, LW9500, LW770*, LW7700, LW7500, 
+LW650*, LW6500, LW570*, LW5700, LW5600, LW550*, LW5500
+LV570*, LV5700, LV550W, LV550T, LV5500(except size 26'', 22'', and Hong Kong), LV5400
+LV375*, LV373S, LV372S, LV3700
+
+North America Only 
+LK550, LK530
+
+
+- PDP TV
+Korea, Australia, New Zealand, Asia
+PZ950, PZ570
+
+Central Asia
+PZ950
+
+North America
+PZ950, PZ750, PZ550, PZ540
+
+Latin America
+PZ950
+PZ570 (Brazil, Peru, Chile Only)
+
+Europe
+PZ950, PZ750"</string>
+    <string name="text_intro_app">"모든 LG TV는
+LG TV remote와의 첫 연결을 위해 일반 상태이어야 합니다. 
+
+기존 리모컨의 '나가기' 버튼을
+눌러 연결하고자 하는 LG TV를
+일반 상태로 만들어 주세요"</string>
+    <string name="bt_text_intro">다음</string>
+    <string name="title_Touchpad_tap_sensitivity">터치패드 텝 민감도</string>
+    <string name="text_Touchpad_tap_sensitivity">TEST</string>
+    <string name="key_code_power_on_off">8</string>
+    <string name="key_code_num_0">16</string>
+    <string name="key_code_num_1">17</string>
+    <string name="key_code_num_2">18</string>
+    <string name="key_code_num_3">19</string>
+    <string name="key_code_num_4">20</string>
+    <string name="key_code_num_5">21</string>
+    <string name="key_code_num_6">22</string>
+    <string name="key_code_num_7">23</string>
+    <string name="key_code_num_8">24</string>
+    <string name="key_code_num_9">25</string>
+    <string name="key_code_mute">9</string>
+    <string name="key_code_menu">67</string>
+    <string name="key_code_dash">76</string>
+    <string name="key_code_flashback">26</string>
+    <string name="key_code_chlist">83</string>
+    <string name="key_code_enter">68</string>
+    <string name="key_code_ch_up">0</string>
+    <string name="key_code_ch_down">1</string>
+    <string name="key_code_vol_up">2</string>
+    <string name="key_code_vol_down">3</string>
+    <string name="key_code_arrow_up">64</string>
+    <string name="key_code_arrow_down">65</string>
+    <string name="key_code_arrow_left">7</string>
+    <string name="key_code_arrow_right">6</string>
+    <string name="key_code_return">40</string>
+    <string name="key_code_exit_cancel">91</string>
+    <string name="key_code_confirm">68</string>
+    <string name="key_code_cursor_ok">2</string>
+    <string name="key_code_quick_menu">69</string>
+    <string name="key_code_red_button">114</string>
+    <string name="key_code_green_button">113</string>
+    <string name="key_code_yellow_button">99</string>
+    <string name="key_code_blue_button">97</string>
+    <string name="key_code_mm_live_tv">158</string>
+    <string name="key_code_mm_stop">177</string>
+    <string name="key_code_mm_play">176</string>
+    <string name="key_code_mm_pause">186</string>
+    <string name="key_code_mm_skip_backward">143</string>
+    <string name="key_code_mm_skip_forward">142</string>
+    <string name="key_code_mm_record">189</string>
+    <string name="key_code_epg">169</string>
+    <string name="key_code_energy_saving">149</string>
+    <string name="key_code_av_mode">48</string>
+    <string name="key_code_input">11</string>
+    <string name="key_code_fav">30</string>
+    <string name="key_code_simplink">126</string>
+    <string name="key_code_ratio">121</string>
+    <string name="key_code_info">170</string>
+    <string name="key_code_netcast">89</string>
+    <string name="key_code_guide">169</string>
+    <string name="key_code_subtitle">57</string>
+    <string name="key_code_teletext">32</string>
+    <string name="key_code_t_opt">33</string>
+    <string name="key_code_ad">145</string>
+</resources>

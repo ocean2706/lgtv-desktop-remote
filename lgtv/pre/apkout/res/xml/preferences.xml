@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_category_connect">
+        <PreferenceScreen android:title="@string/title_config_connected_tv" android:selectable="true" android:key="config_connected_tv" />
+        <PreferenceScreen android:title="@string/title_config_edit_cur_tv_nickname" android:selectable="true" android:key="config_edit_tv_name" />
+        <CheckBoxPreference android:title="@string/title_config_demo_tv" android:key="config_demo_tv" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_effects">
+        <CheckBoxPreference android:title="@string/title_config_vibration_feedback" android:key="config_vibration_feedback" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/title_config_sound_effects" android:key="config_sound_effects" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_function">
+        <CheckBoxPreference android:title="@string/title_config_auto_volume_down" android:key="config_auto_mute" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_sensitivity">
+        <com.clipcomm.WiFiRemocon.SeekBarPreference android:title="@string/title_touchpad_tap_sensitivity" android:key="touch_sensitivity" android:defaultValue="3" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_remote_id">
+        <PreferenceScreen android:title="@string/title_remote_id" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_category_manual">
+        <PreferenceScreen android:title="@string/preferences_category_about" android:key="pref_about_app" />
+        <PreferenceScreen android:title="@string/preferences_category_supported_model" android:key="pref_supported_model" />
+    </PreferenceCategory>
+</PreferenceScreen>

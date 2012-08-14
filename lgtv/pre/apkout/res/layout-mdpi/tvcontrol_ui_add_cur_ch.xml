@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.clipcomm.WiFiRemocon.DynamicLinearLayout android:orientation="vertical" android:id="@id/ui_add_current_ch" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.clipcomm.WiFiRemocon">
+    <AbsoluteLayout android:id="@id/slide_control_slides" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="320.0px" android:layout_height="440.0px" android:src="@drawable/addch_bg" />
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:background="@drawable/chinfo_bg" android:paddingBottom="10.0dip" android:layout_width="148.0dip" android:layout_height="wrap_content" android:layout_x="10.0px" android:layout_y="54.0px">
+            <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/my_ch_add_cur_ch_major" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/my_ch_add_cur_ch_hyphen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/my_ch_add_cur_ch_minor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0.0dip" android:layout_y="0.0dip" />
+        </LinearLayout>
+        <AbsoluteLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="16.0px" android:layout_y="175.0px">
+            <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="left|center" android:id="@id/btn_add_ch_edit_dispname" android:background="@drawable/btn_chname" android:paddingLeft="10.0dip" android:layout_width="136.0dip" android:layout_height="48.0dip" />
+            <EditText android:textSize="20.0sp" android:textStyle="bold" android:id="@id/my_ch_add_modify_dispname" android:visibility="invisible" android:layout_width="136.0dip" android:layout_height="48.0dip" android:singleLine="true" />
+        </AbsoluteLayout>
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_current_ch_info" android:layout_x="16.0px" android:layout_y="38.0px" />
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_channel_name" android:layout_x="16.0px" android:layout_y="152.0px" />
+        <com.clipcomm.WiFiRemocon.PikerCtlView android:id="@id/piker_place_channel" android:background="@drawable/piker_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="172.0px" android:layout_y="20.0px" custom:src_image_piker1="@drawable/piker_line01" custom:src_image_piker2="@drawable/piker_line02" custom:src_image_piker3="@drawable/piker_line03" custom:src_image_piker4="@drawable/piker_line04" custom:src_btn_up="@drawable/piker_up_arrow" custom:repeat_timeout="200" custom:src_btn_up_marginTop="72.0dip" custom:src_btn_up_marginLeft="62.0dip" custom:src_btn_down="@drawable/piker_down_arrow" custom:src_btn_down_marginTop="183.0dip" custom:src_btn_down_marginLeft="62.0dip" custom:src_btn_title="@drawable/piker_ch_text" custom:src_btn_title_marginTop="120.0dip" custom:src_btn_title_marginLeft="46.0dip" />
+        <Button android:textSize="18.0sp" android:textStyle="bold" android:id="@id/btn_add_ch_add" android:layout_width="278.0px" android:layout_height="44.0px" android:text="@string/btn_add_channel" android:layout_x="20.0px" android:layout_y="340.0px" android:soundEffectsEnabled="false" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/text_add_ch_guide_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_select_ch_and_add" android:layout_x="0.0px" android:layout_y="397.0px" />
+    </AbsoluteLayout>
+</com.clipcomm.WiFiRemocon.DynamicLinearLayout>

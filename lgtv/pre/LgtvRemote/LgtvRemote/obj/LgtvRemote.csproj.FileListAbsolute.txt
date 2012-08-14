@@ -1,0 +1,12 @@
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\bin\Debug\LgtvRemote.exe.config
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\bin\Debug\LgtvRemote.exe
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\bin\Debug\LgtvRemote.pdb
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\bin\Debug\LgClientNetLib.dll
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\bin\Debug\LgClientNetLib.pdb
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\obj\x86\Debug\LgtvRemote.MainForm.resources
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\obj\x86\Debug\LgtvRemote.TouchPad.resources
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\obj\x86\Debug\LgtvRemote.exe
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\LgtvRemote\obj\x86\Debug\LgtvRemote.pdb

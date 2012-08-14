@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.clipcomm.WiFiRemocon.DynamicLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout android:id="@id/device_pairing_2_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="520.0px">
+            <AbsoluteLayout android:layout_width="320.0dip" android:layout_height="358.0dip">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tv" android:layout_x="0.0px" android:layout_y="0.0px" />
+            </AbsoluteLayout>
+        </LinearLayout>
+    </AbsoluteLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textStyle="bold" android:gravity="center" android:id="@id/InputPincode" android:background="@drawable/input_window" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:singleLine="true" android:maxLength="6" android:capitalize="characters" android:inputType="textCapCharacters|textUri" android:imeOptions="actionDone" />
+        <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="right" android:id="@id/InputPincodeOK" android:background="@drawable/btn_ok" android:layout_width="59.0dip" android:layout_height="28.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="9.0dip" android:minHeight="28.0dip" android:text="OK" android:singleLine="true" android:soundEffectsEnabled="false" />
+    </FrameLayout>
+</com.clipcomm.WiFiRemocon.DynamicLinearLayout>

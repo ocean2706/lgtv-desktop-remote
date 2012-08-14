@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ui_touchpad_navi_menu" android:background="@drawable/volch_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.clipcomm.WiFiRemocon">
+    <AbsoluteLayout android:layout_gravity="center" android:paddingBottom="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/navi_btn_menu" android:background="@drawable/navi_btn_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+                <Button android:id="@id/navi_btn_qmenu" android:background="@drawable/navi_btn_qmenu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/navi_btn_return" android:background="@drawable/navi_btn_return" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0.0px" android:layout_y="211.0px" android:soundEffectsEnabled="false" />
+                <Button android:id="@id/navi_btn_exit" android:background="@drawable/navi_btn_exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="204.0px" android:layout_y="211.0px" android:soundEffectsEnabled="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.clipcomm.WiFiRemocon.NaviButtonView android:id="@id/navi_navi_pannel" android:background="@drawable/button_center_nor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="48.0dip" android:layout_y="55.0dip" custom:src_image_up="@drawable/button_center_up" custom:src_image_down="@drawable/button_center_down" custom:src_image_left="@drawable/button_center_left" custom:src_image_right="@drawable/button_center_right" />
+        <Button android:id="@id/navi_btn_center" android:background="@drawable/navi_btn_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="100.0dip" android:layout_y="106.0dip" android:soundEffectsEnabled="false" />
+    </AbsoluteLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_a" android:background="@drawable/navi_btn_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_a" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_b" android:background="@drawable/navi_btn_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_b" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_c" android:background="@drawable/navi_btn_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_c" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_d" android:background="@drawable/navi_btn_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_d" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+    </LinearLayout>
+</FrameLayout>

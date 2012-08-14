@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ui_vol_ch_mych" android:layout_width="fill_parent" android:layout_height="fill_parent" android:soundEffectsEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/mych_btn_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/ui_mych_add_cur_ch" android:layout_width="145.0dip" android:layout_height="41.0dip" android:text="@string/btn_txt_add_cur_ch" android:soundEffectsEnabled="false" />
+        <Button android:id="@id/ui_mych_edit_ch" android:layout_width="145.0dip" android:layout_height="41.0dip" android:layout_marginLeft="8.0dip" android:text="@string/btn_txt_import_tv_fav" android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <com.clipcomm.WiFiRemocon.CHListView android:id="@id/ui_mych_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:soundEffectsEnabled="false" />
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_main">LG TV Remote</string>
+    <string name="wifi_turning_on">Wi-Fi iesl?gts</string>
+    <string name="msgbox_title_cannot_found_paired_tv">Question</string>
+    <string name="msgbox_info_cannot_found_paired_tv">"'%s' nav noteikts. Vai pievienosit pie cita TV?"</string>
+    <string name="msgbox_btn_yes_cannot_found_paired_tv">J?</string>
+    <string name="msgbox_btn_no_cannot_found_paired_tv">N?</string>
+    <string name="app_name_device_search">Izv?lieties TV...</string>
+    <string name="msgbox_wait_search_device">Mekl? ier?ci...</string>
+    <string name="device_search_set_default_tv">Iestat. k? nokl. TV</string>
+    <string name="device_search_connect_tv">Pievienot</string>
+    <string name="device_search_rescan_tv">P?rbaud?t TV sarakstu v?lreiz</string>
+    <string name="demo_tv_name">Demo TV</string>
+    <string name="demo_tv_nickname">Virtual TV for demonstration.</string>
+    <string name="app_name_device_pairing_main">Pairing</string>
+    <string name="device_pairing_guide">"Ievadiet p?ra kodu ier?cei '%s'."</string>
+    <string name="device_pairing_input_pincode">Ievad?t p?ra kodu</string>
+    <string name="device_pairing_menu_back">Atp. uz TV sar.</string>
+    <string name="device_search_cannot_fount_tv">Lai lietotu LG TV t?lvad?bas lietojumprogr., LG TV un viedt?lrunis j?pievieno vienam piek?uves punktam.</string>
+    <string name="msgbox_wait_for_connection">Savieno...</string>
+    <string name="title_msgbox_wrong_passkey">Neizdev?s izveidot savienojumu</string>
+    <string name="text_msgbox_wrong_passkey">"Nepareizs p?ra kods ier?cei '%s'"</string>
+    <string name="btn_msgbox_close">Aizv?rt</string>
+    <string name="title_msgbox_passkey_changed">Neizdev?s izveidot savienojumu</string>
+    <string name="text_msgbox_passkey_changed">"Sav. p?r? atsl. neatbilst!
+L?dzu, ievadiet TV ekr. par?d?to sav. p?r? atsl?gu"</string>
+    <string name="btn_msgbox_passkey_changed">OK</string>
+    <string name="tvctrl_main_tab_1">VOL / CH</string>
+    <string name="tvctrl_sub_tab_1">Basic</string>
+    <string name="tvctrl_ch_vol_shake_phone_text_1">Pakratiet, lai atv?rtu</string>
+    <string name="tvctrl_ch_vol_shake_phone_text_2">menu</string>
+    <string name="tvctrl_sub_tab_2">NUM 0~9</string>
+    <string name="btn_txt_chlist">CH List</string>
+    <string name="btn_txt_enter">Enter</string>
+    <string name="tvctrl_sub_tab_3">My CH</string>
+    <string name="btn_txt_add_cur_ch">Add current CH</string>
+    <string name="btn_txt_import_tv_fav">Import TV FAV</string>
+    <string name="app_name_add_chrrent_ch">Piev. pa?r. kan. Maniem kan.</string>
+    <string name="text_current_ch_info">Pa?r. kan. info.</string>
+    <string name="text_channel_name">Kan. nos.</string>
+    <string name="btn_add_channel">Add</string>
+    <string name="text_select_ch_and_add">Atlasiet kan?lu, kas j?pievieno.</string>
+    <string name="text_ch_info_is_duplicated">%s is duplicated!</string>
+    <string name="text_ch_info_is_added">"'%s' tika pievienots"</string>
+    <string name="msgbox_wait_download_fav_ch">Import? Iec. kan?lus no TV...</string>
+    <string name="title_fav_group">FAV CH group</string>
+    <string name="app_name_edit_my_channel">Red. Mani kan.</string>
+    <string name="msg_btn_cancel">Atcelt</string>
+    <string name="tvctrl_main_tab_2">Touchpad</string>
+    <string name="advice_touchpad_usages">L?dzu, izm. sk?rienpal. TV r?d?t?ja vad?bai.</string>
+    <string name="advice_touchpad_usages2" />
+    <string name="tvctrl_main_tab_3">Button</string>
+    <string name="btn_txt_livetv">Live TV</string>
+    <string name="btn_txt_navi_a" />
+    <string name="btn_txt_navi_b" />
+    <string name="btn_txt_navi_c" />
+    <string name="btn_txt_navi_d" />
+    <string name="title_exit_app">Question</string>
+    <string name="text_exit_app">Vai v?laties iziet no LG TV t?lvad. progr.?</string>
+    <string name="button_ok_exit_app">Iziet</string>
+    <string name="button_cancel_exit_app">Atcelt</string>
+    <string name="title_turnoff_tv">Question</string>
+    <string name="text_turnoff_tv">Izsl?dziet TV</string>
+    <string name="button_ok_turnoff_tv">Izsl?gt</string>
+    <string name="button_cancel_turnoff_tv">Atcelt</string>
+    <string name="app_name_tvctrl_keyboard">Keyboard</string>
+    <string name="menu_rename_ch">Main?t kan. nos.</string>
+    <string name="menu_delete_ch">Dz?st</string>
+    <string name="menu_setting">Iestat?jumi</string>
+    <string name="menu_tv_off">Izsl?dziet TV</string>
+    <string name="cxtmenu_mych_change_name">Main?t kan. nos.</string>
+    <string name="cxtmenu_mych_delete">Dz?st</string>
+    <string name="msgbox_title_delete_a_mych">Dz?st</string>
+    <string name="msg_btn_yes">J?</string>
+    <string name="msg_btn_no">N?</string>
+    <string name="msgbox_title_info_demo_tv_mode">Information</string>
+    <string name="msgbox_txt_demo_tv_mode_change">"Setting was changed.
+Run Rescan TV lists."</string>
+    <string name="msgbox_btn_ok">OK</string>
+    <string name="app_name_setting">Iestat?jumi</string>
+    <string name="preferences_category_connect">TV Connection</string>
+    <string name="title_config_connected_tv">Pievienotais TV</string>
+    <string name="title_config_edit_cur_tv_nickname">Redi??t TV nos.</string>
+    <string name="title_config_demo_tv">Demo TV</string>
+    <string name="summary_config_demo_tv">Without connected TV, LG TV Remote application is available.</string>
+    <string name="preferences_category_effects">Effects</string>
+    <string name="title_config_vibration_feedback">Vibr?cijas efekti</string>
+    <string name="summary_config_vibration_feedback">Vibr?cijas efekti</string>
+    <string name="title_config_sound_effects">Ska?u efekti</string>
+    <string name="summary_config_sound_effects">Ska?u efekti</string>
+    <string name="preferences_category_function">Function</string>
+    <string name="title_config_auto_volume_down">Apklusin. pie ien. zvana</string>
+    <string name="summary_config_auto_volume_down">Apklusin. pie ien. zvana</string>
+    <string name="preferences_category_remote_id">Remote ID</string>
+    <string name="title_remote_id">Iestat?t att. ID</string>
+    <string name="preferences_category_sensitivity">J?t?ba</string>
+    <string name="title_touchpad_tap_sensitivity">Sk?rienpalikt?a j?t?ba</string>
+    <string name="summary_touchpad_tap_sensitivity">Sk?rienpalikt?a j?t?ba</string>
+    <string name="preferences_category_version_info">Version Info.</string>
+    <string name="preferences_category_version_protocol_title">Protocol version</string>
+    <string name="preferences_category_version_sw_title">Software version</string>
+    <string name="preferences_category_manual">Manual</string>
+    <string name="preferences_category_about">Lietotne</string>
+    <string name="preferences_category_supported_model">Inform?cija par atbalst?to modeli</string>
+    <string name="title_about_app">Lietotne</string>
+    <string name="title_supported_models">Inform?cija par atbalst?to modeli</string>
+    <string name="text_supported_models">"Supported Models Information 
+
+- LCD/LED TV
+LEX8
+LZ9800, LZ970*, LZ9700, LZ9600
+LW9600, LW950*, LW9500, LW770*, LW7700, LW7500, 
+LW650*, LW6500, LW570*, LW5700, LW5600, LW550*, LW5500
+LV570*, LV5700, LV550W, LV550T, LV5500(except size 26'', 22'', and Hong Kong), LV5400
+LV375*, LV373S, LV372S, LV3700
+
+North America Only 
+LK550, LK530
+
+
+- PDP TV
+Korea, Australia, New Zealand, Asia
+PZ950, PZ570
+
+Central Asia
+PZ950
+
+North America
+PZ950, PZ750, PZ550, PZ540
+
+Latin America
+PZ950
+PZ570 (Brazil, Peru, Chile Only)
+
+Europe
+PZ950, PZ750"</string>
+    <string name="text_intro_app">Lai atgrieztos parast? TV re??m?, nospiediet t?lvad?bas pults pogu Exit (Iziet).</string>
+    <string name="bt_text_intro">N?kamais</string>
+    <string name="title_Touchpad_tap_sensitivity">Sk?rienpalikt?a j?t?ba</string>
+    <string name="text_Touchpad_tap_sensitivity">TEST</string>
+    <string name="key_code_power_on_off">8</string>
+    <string name="key_code_num_0">16</string>
+    <string name="key_code_num_1">17</string>
+    <string name="key_code_num_2">18</string>
+    <string name="key_code_num_3">19</string>
+    <string name="key_code_num_4">20</string>
+    <string name="key_code_num_5">21</string>
+    <string name="key_code_num_6">22</string>
+    <string name="key_code_num_7">23</string>
+    <string name="key_code_num_8">24</string>
+    <string name="key_code_num_9">25</string>
+    <string name="key_code_mute">9</string>
+    <string name="key_code_menu">67</string>
+    <string name="key_code_dash">76</string>
+    <string name="key_code_flashback">26</string>
+    <string name="key_code_chlist">83</string>
+    <string name="key_code_enter">68</string>
+    <string name="key_code_ch_up">0</string>
+    <string name="key_code_ch_down">1</string>
+    <string name="key_code_vol_up">2</string>
+    <string name="key_code_vol_down">3</string>
+    <string name="key_code_arrow_up">64</string>
+    <string name="key_code_arrow_down">65</string>
+    <string name="key_code_arrow_left">7</string>
+    <string name="key_code_arrow_right">6</string>
+    <string name="key_code_return">40</string>
+    <string name="key_code_exit_cancel">91</string>
+    <string name="key_code_confirm">68</string>
+    <string name="key_code_cursor_ok">2</string>
+    <string name="key_code_quick_menu">69</string>
+    <string name="key_code_red_button">114</string>
+    <string name="key_code_green_button">113</string>
+    <string name="key_code_yellow_button">99</string>
+    <string name="key_code_blue_button">97</string>
+    <string name="key_code_mm_live_tv">158</string>
+    <string name="key_code_mm_stop">177</string>
+    <string name="key_code_mm_play">176</string>
+    <string name="key_code_mm_pause">186</string>
+    <string name="key_code_mm_skip_backward">143</string>
+    <string name="key_code_mm_skip_forward">142</string>
+    <string name="key_code_mm_record">189</string>
+    <string name="key_code_epg">169</string>
+    <string name="key_code_energy_saving">149</string>
+    <string name="key_code_av_mode">48</string>
+    <string name="key_code_input">11</string>
+    <string name="key_code_fav">30</string>
+    <string name="key_code_simplink">126</string>
+    <string name="key_code_ratio">121</string>
+    <string name="key_code_info">170</string>
+    <string name="key_code_netcast">89</string>
+    <string name="key_code_guide">169</string>
+    <string name="key_code_subtitle">57</string>
+    <string name="key_code_teletext">32</string>
+    <string name="key_code_t_opt">33</string>
+    <string name="key_code_ad">145</string>
+</resources>

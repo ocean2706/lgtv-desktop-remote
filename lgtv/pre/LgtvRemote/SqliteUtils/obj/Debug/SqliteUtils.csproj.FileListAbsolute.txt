@@ -1,0 +1,5 @@
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\SqliteUtils\bin\Debug\SqliteUtils.dll
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\SqliteUtils\bin\Debug\SqliteUtils.pdb
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\SqliteUtils\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\SqliteUtils\obj\Debug\SqliteUtils.dll
+C:\Users\george\Desktop\j2ee\checkout\LgtvRemote\SqliteUtils\obj\Debug\SqliteUtils.pdb

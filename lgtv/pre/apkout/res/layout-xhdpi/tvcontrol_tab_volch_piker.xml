@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ui_vol_ch_piker" android:background="@drawable/volch_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:soundEffectsEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.clipcomm.WiFiRemocon">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/slide_control_slides" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.clipcomm.WiFiRemocon.PikerCtlView android:id="@id/piker_place_volume" android:background="@drawable/piker_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0sp" custom:src_image_piker1="@drawable/piker_line01" custom:src_image_piker2="@drawable/piker_line02" custom:src_image_piker3="@drawable/piker_line03" custom:src_image_piker4="@drawable/piker_line04" custom:src_btn_up="@drawable/piker_plus" custom:repeat_timeout="100" custom:src_btn_up_marginTop="95.0px" custom:src_btn_up_marginLeft="94.0px" custom:src_btn_down="@drawable/piker_minus" custom:src_btn_down_marginTop="275.0px" custom:src_btn_down_marginLeft="94.0px" custom:src_btn_title="@drawable/piker_vol_text" custom:src_btn_title_marginTop="186.0px" custom:src_btn_title_marginLeft="66.0px" />
+        <com.clipcomm.WiFiRemocon.PikerCtlView android:id="@id/piker_place_channel" android:background="@drawable/piker_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginTop="2.0sp" custom:src_image_piker1="@drawable/piker_line01" custom:src_image_piker2="@drawable/piker_line02" custom:src_image_piker3="@drawable/piker_line03" custom:src_image_piker4="@drawable/piker_line04" custom:src_btn_up="@drawable/piker_up_arrow" custom:repeat_timeout="200" custom:src_btn_up_marginTop="100.0px" custom:src_btn_up_marginLeft="91.0px" custom:src_btn_down="@drawable/piker_down_arrow" custom:src_btn_down_marginTop="275.0px" custom:src_btn_down_marginLeft="91.0px" custom:src_btn_title="@drawable/piker_ch_text" custom:src_btn_title_marginTop="179.0px" custom:src_btn_title_marginLeft="68.0px" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/slide_control_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/mute_button" android:background="@drawable/btn_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+        <ImageButton android:background="@drawable/vol_hold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:soundEffectsEnabled="false" />
+        <ImageButton android:id="@id/menu_button" android:background="@drawable/btn_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vol_info" />
+        <TextView android:textColor="#ff969696" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tvctrl_ch_vol_shake_phone_text_1" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_premium" />
+        <TextView android:textColor="#ff969696" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tvctrl_ch_vol_shake_phone_text_2" />
+    </LinearLayout>
+</LinearLayout>

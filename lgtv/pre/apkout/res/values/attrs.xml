@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="src_image_piker1" format="integer" />
+    <attr name="src_image_piker2" format="integer" />
+    <attr name="src_image_piker3" format="integer" />
+    <attr name="src_image_piker4" format="integer" />
+    <attr name="src_btn_up" format="integer" />
+    <attr name="repeat_timeout" format="integer" />
+    <attr name="src_btn_up_marginTop" format="dimension" />
+    <attr name="src_btn_up_marginLeft" format="dimension" />
+    <attr name="src_btn_down" format="integer" />
+    <attr name="src_btn_down_marginTop" format="dimension" />
+    <attr name="src_btn_down_marginLeft" format="dimension" />
+    <attr name="src_btn_title" format="integer" />
+    <attr name="src_btn_title_marginTop" format="dimension" />
+    <attr name="src_btn_title_marginLeft" format="dimension" />
+    <attr name="src_image_up" format="integer" />
+    <attr name="src_image_down" format="integer" />
+    <attr name="src_image_left" format="integer" />
+    <attr name="src_image_right" format="integer" />
+    <attr name="checkable" format="integer" />
+</resources>

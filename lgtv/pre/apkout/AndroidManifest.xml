@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="11" android:versionName="@string/preferences_category_version_sw_value" android:installLocation="auto" package="com.clipcomm.WiFiRemocon"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application android:label="@string/app_name_main" android:icon="@drawable/icon" android:debuggable="false">
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:label="@string/app_name_main" android:name=".CWiFiRemocon_start" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name_device_search" android:name=".CDeviceSearch" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name_device_pairing_main" android:name=".CPairingDevice_Main" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name_device_pairing_main" android:name=".CPairingDevice_InputPincode" android:screenOrientation="portrait" android:configChanges="screenLayout" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".CTVControl_ChVol" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_ChVol_Piker" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_ChVol_Numpad" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_Touchpad_pad" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_Button_navi" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_Button_MM" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name_setting" android:name=".Preference_Settings" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_ChVol_MyCH" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_Keyboard" android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <activity android:theme="@android:style/Theme.Dialog" android:name=".WaitMsgbox" />
+        <activity android:label="@string/app_name_add_chrrent_ch" android:name=".CTVControl_ChVol_MyCH_Add" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:label="@string/app_name_edit_my_channel" android:name=".CTVControl_ChVol_MyCH_Edit_Name" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".CSetting_EditTVName" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".CTVControl_RootUI" android:screenOrientation="portrait" />
+        <activity android:name=".CTVControl_Button" android:screenOrientation="portrait" />
+        <activity android:name=".PreferenceManual" android:screenOrientation="portrait" />
+        <activity android:name=".Cintro" android:screenOrientation="portrait" />
+    </application>
+    <supports-screens android:anyDensity="true" android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true" />
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+</manifest>

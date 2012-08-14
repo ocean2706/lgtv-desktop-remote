@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.clipcomm.WiFiRemocon.DynamicLinearLayout android:orientation="vertical" android:id="@id/ui_add_current_ch" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.clipcomm.WiFiRemocon">
+    <AbsoluteLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="480.0px" android:layout_height="724.0px" android:src="@drawable/addch_bg" />
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:background="@drawable/chinfo_bg" android:paddingBottom="10.0dip" android:layout_width="237.0px" android:layout_height="110.0px" android:layout_x="9.0px" android:layout_y="114.0px">
+            <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/my_ch_edit_cur_ch_major" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/my_ch_edit_cur_ch_hyphen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/my_ch_edit_cur_ch_minor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0.0dip" android:layout_y="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_x="0.0px" android:layout_y="293.0px">
+            <EditText android:textSize="20.0sp" android:textStyle="bold" android:id="@id/my_ch_edit_modify_dispname" android:layout_width="296.0dip" android:layout_height="48.0dip" android:singleLine="true" layout_gravity="center" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_current_ch_info" android:layout_x="19.0px" android:layout_y="89.0px" />
+        <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_channel_name" android:layout_x="19.0px" android:layout_y="258.0px" />
+    </AbsoluteLayout>
+</com.clipcomm.WiFiRemocon.DynamicLinearLayout>

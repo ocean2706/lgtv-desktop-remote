@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ui_touchpad_mm_menu" android:background="@drawable/volch_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AbsoluteLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:soundEffectsEnabled="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/mm_btn_livetv" android:background="@drawable/tran_btn" android:layout_width="298.0dip" android:layout_height="60.0dip" android:layout_marginTop="30.0dip" android:text="@string/btn_txt_livetv" android:shadowColor="#ff000000" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip">
+                <Button android:id="@id/mm_btn_stop" android:background="@drawable/btn_mm_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+                <Button android:id="@id/mm_btn_play" android:background="@drawable/btn_mm_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:soundEffectsEnabled="false" />
+                <Button android:id="@id/mm_btn_pause" android:background="@drawable/btn_mm_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <Button android:id="@id/mm_btn_prev" android:background="@drawable/btn_mm_prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+                <Button android:id="@id/mm_btn_next" android:background="@drawable/btn_mm_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:soundEffectsEnabled="false" />
+                <Button android:id="@id/mm_btn_rec" android:background="@drawable/btn_mm_rec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </AbsoluteLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_a" android:background="@drawable/navi_btn_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_a" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_b" android:background="@drawable/navi_btn_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_b" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_c" android:background="@drawable/navi_btn_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_c" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+        <Button android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/navi_btn_d" android:background="@drawable/navi_btn_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="0.0dip" android:text="@string/btn_txt_navi_d" android:shadowColor="#ff808080" android:shadowDx="-0.8" android:shadowDy="-0.8" android:shadowRadius="1.2" android:soundEffectsEnabled="false" />
+    </LinearLayout>
+</FrameLayout>
