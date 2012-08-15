@@ -7,6 +7,7 @@ namespace com.lg.tv
 {
    public class LgTVRemoteUDPRequest:LgRemoteUDPRequest
     {
-       
+
+      
     }
 }

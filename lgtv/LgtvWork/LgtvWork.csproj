@@ -53,6 +53,7 @@
     <Compile Include="LGHTTPPostRequest.cs" />
     <Compile Include="LgRemoteUDPRequest.cs" />
     <Compile Include="LGTVHTTPPostRequest.cs" />
+    <Compile Include="LgTvMouseMoveController.cs" />
     <Compile Include="LgTVRemoteUDPRequest.cs" />
     <Compile Include="LgTvUDPMessage.cs" />
     <Compile Include="LGTVUdpSocket.cs" />

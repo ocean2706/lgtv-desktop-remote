@@ -7,5 +7,11 @@ namespace com.lg.tv
 {
 	public class UDPRequestCore
 	{
+        public String Ip { get; set; }
+        public String Port { get; set; }
+        public virtual  byte[] Send(byte[] data)
+        {
+            return data;
+        }
 	}
 }
