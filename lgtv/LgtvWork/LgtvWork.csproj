@@ -37,6 +37,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="zlibnet">
+      <HintPath>..\libs\zlibnet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="additions\KeyCodes.cs" />
@@ -72,6 +75,12 @@
     <Compile Include="HTTPPost.cs" />
     <Compile Include="PRM.cs" />
     <None Include="spoiler.py" />
+    <None Include="zlib32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="zlib64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="dec2hex.php" />

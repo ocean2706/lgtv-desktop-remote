@@ -7,26 +7,28 @@ namespace com.lg.tv
 {
 	public class LgRemoteUDPRequest:UDPRequest
 	{
-        protected TVInfo __tvi = new TVInfo();
+		protected TVInfo __tvi = new TVInfo ();
 
-        protected TVInfo tv {
-            get {
-                return __tvi;
-        }
-            set {
-                __tvi = value;
-                this.Ip = __tvi.IP;
-                this.Port = __tvi.HTTPPORT.ToString();
-            }
-        }
+		protected TVInfo tv {
+			get {
+				return __tvi;
+			}
+			set {
+				__tvi = value;
+				this.Ip = __tvi.IP;
+				this.Port = __tvi.UDPPORT.ToString ();
+				this.NetSetup ();
+			}
+		}
 
-        internal void SetTvInfo(TVInfo tv)
-        {
-            this.tv = tv;
-        }
-        internal void HandleTouchMove(int x, int y)
-        {
-        }
+		internal void SetTvInfo (TVInfo tv)
+		{
+			this.tv = tv;
+
+		}
+		internal void HandleTouchMove (int x, int y)
+		{
+		}
 		internal  void HandleTouchMove (decimal nDeltaX, decimal nDeltaY)
 		{
 			throw new NotImplementedException ();

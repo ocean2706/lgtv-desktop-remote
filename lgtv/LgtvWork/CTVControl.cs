@@ -298,8 +298,8 @@ namespace com.lg.tv
 				String str2 = HTTPPostRequest.parseElement (localObject, "HDCPError");
 				String detail = HTTPPostRequest.parseElement (localObject, "HDCPErrorDetail");
 				m_strSession = HTTPPostRequest.parseElement (localObject, "session");
-				m_strTimeout = HTTPPostRequest.parseElement (localObject, "timeout");
-				return new String[]{m_strSession, m_strTimeout};
+				//	m_strTimeout = HTTPPostRequest.parseElement (localObject, "timeout");
+				return new String[]{m_strSession, ""};
 			} catch (URISyntaxException localURISyntaxException) {
 
 				localURISyntaxException.printStackTrace ();
